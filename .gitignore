@@ -1,0 +1,35 @@
+# Build output
+out/
+
+# devkitPro / Makefile build artifacts
+build/
+*.o
+*.d
+*.a
+*.lst
+*.map
+
+# Switch homebrew artifacts
+*.elf
+*.nso
+*.nsp
+*.nro
+*.nacp
+*.npdm
+*.kip
+*.pfs0
+*.ovl
+
+# Vendored libraries fetched by build.sh
+frontends/overlay/hidpoll_ovl/lib/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
