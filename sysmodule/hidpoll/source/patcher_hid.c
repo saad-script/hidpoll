@@ -69,6 +69,7 @@ typedef struct {
 static const HidLayout HID_LAYOUTS[] = {
     { "C3030310E47B3841417518902AFFB2301F0033FC", 0x26c000, 0x498, 0xbb0, 0x368, 17, 0x320 }, // 22.5.0
     { "C9636704F7726BF77CEBBC53FFB14A80D8F789A1", 0x27e000, 0x498, 0xbc0, 0x368, 17, 0x320 }, // 23.0.X
+    { "D209357BF939276179EF943C8DC88E482C7F588E", 0x27e000, 0x498, 0xbc0, 0x368, 17, 0x320 }, // 23.5.0
 };
 
 static const HidLayout* find_hid_layout(const char* bid) {
